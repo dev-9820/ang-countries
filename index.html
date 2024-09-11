@@ -39,7 +39,7 @@
 
   <!-- Country Detail Page -->
   <div class="country-details" ng-if="selectedCountry">
-    <button ng-click="deselectCountry()">← Back</button>
+    <button class="back" ng-click="deselectCountry()">← Back</button>
     <img ng-src="{{selectedCountry.flag}}" alt="{{selectedCountry.name}}">
     <h2>{{selectedCountry.name}}</h2>
     <p><strong>Population:</strong> {{selectedCountry.population | number}}</p>

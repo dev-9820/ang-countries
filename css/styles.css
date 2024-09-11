@@ -2,7 +2,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    
+  }
+
+  .back:hover{
+    background: #3b5851;
+    transition-duration: 200ms;
+    color: white;
+    cursor: pointer;
+  }
+
+  .back{
+    background: #83c5b6;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    transition-duration: 200ms;
+
   }
   
   header {
@@ -61,7 +79,9 @@ body {
   }
   
   .country-details {
-    padding: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
   }
   
   .country-details img {
